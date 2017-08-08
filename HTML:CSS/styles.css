@@ -7,3 +7,26 @@
 .rightLink{
   padding-top:27px;
 }
+.contactLI{
+  display: block;
+}
+.navbar{
+  margin:0;
+}
+#navInput{
+  width: 122%;
+}
+#searchBtn{
+  text-shadow: none;
+  border: none;
+  background: none;
+  background-color: green;
+  color: white;
+  width: 100px;
+  height: 33px;
+  border-radius: 0;
+  margin-left: 77px;
+}
+#secondNav{
+  margin:0 4%;
+}
