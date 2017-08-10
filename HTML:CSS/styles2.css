@@ -1,3 +1,14 @@
+html{
+  min-height: 100%;
+  position: relative;
+}
+body{
+  margin-bottom: 100px;
+}
+#wrap{
+  min-height: 100%;
+  padding-bottom: 60px;
+}
 .img{
   height: 285%;
 }
@@ -151,6 +162,7 @@
 }
 #contentHolder{
   margin-top: 5%;
+  word-wrap: break-word;
 }
 .languages>h6{
   font-size: 16px;
@@ -159,4 +171,23 @@
 .designations>h6{
   font-size: 16px;
   font-weight: bolder;
+}
+#footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #2C99A4;
+  height: 100px;
+  color: white;
+}
+#iconList>.fb{
+  padding-left: 0;
+}
+#iconList>h6{
+  display: inline;
+  padding:0 10px;
+
+}
+#iconList svg{
+  fill:#ffffff;
 }
