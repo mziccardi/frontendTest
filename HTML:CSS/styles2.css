@@ -186,8 +186,22 @@ body{
 #iconList>h6{
   display: inline;
   padding:0 10px;
-
+}
+.bottomRightIcon>h6{
+  display: inline;
+}
+.bottomRightIcon svg{
+  fill:#ffffff;
+}
+.footRight>h6{
+  display: inline;
 }
 #iconList svg{
   fill:#ffffff;
+}
+.iconRight{
+  padding-right: 10px;
+}
+#icons{
+  text-align: right;
 }
