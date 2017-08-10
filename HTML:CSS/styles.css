@@ -1,0 +1,126 @@
+.img{
+  height: 285%;
+}
+.topNav{
+  background-color: #FFFFFF;
+}
+.rightLink{
+  padding-top:27px;
+
+}
+.contactLI{
+  display: block;
+}
+.navbar{
+  margin:0;
+}
+.toplink{
+  color: #8B8B8B;
+  font-weight: bold;
+}
+#navInput{
+  width: 135%;
+}
+#searchBar{
+  padding-left: 5.3%;
+}
+/*CHANGE NAV COLORS*/
+.navbar-toggle{
+  background: black;
+}
+.navbar-toggle .icon-bar{
+  background:green;
+}
+#searchBtn{
+  text-shadow: none;
+  border: none;
+  background: none;
+  background-color: #297377;
+  color: white;
+  width: 100px;
+  height: 33px;
+  border-radius: 0;
+  margin-left: 77px;
+}
+#secondNav{
+  /*margin:0 4%;*/
+  background-color: #AAAAAA;
+}
+.navbar-default .navbar-nav>li>a{
+  color:white;
+  text-decoration: underline;
+}
+#realtor{
+  max-width: 100%;
+  max-height: 100%;
+}
+#imageContainer{
+  height: 34vh;
+  margin-left:6.5%;
+}
+.jumbotron{
+  height:34vh;
+  padding:0;
+}
+#jumboContainer{
+  display: flex;
+  justify-content: space-between;
+}
+.realtorInfo{
+  display: flex;
+  align-items: center;
+  border: solid black 1px;
+  /*margin:auto;*/
+}
+#ContactMeBtn{
+  margin-bottom: 10px;
+  width: 27vw;
+}
+#jumboContact{
+  list-style-type: none;
+  width: 27vw;
+  display: flex;
+  justify-content: space-between;
+}
+.middleInfo{
+  display: flex;
+  flex-direction: column;
+  border: dotted black 1x;
+  justify-content: center;
+}
+.facebook{
+  list-style-image: url('./Assets/SVGs/facebook.svg');
+}
+.linkedin{
+  list-style-image: url('./Assets/SVGs/linkedin.svg');
+}
+.twitter{
+  list-style-image: url('./Assets/SVGs/twitter.svg');
+}
+.youtube{
+  list-style-image: url('./Assets/SVGs/youtube.svg');
+}
+.insta{
+  list-style-image: url('./Assets/SVGs/instagram.svg');
+}
+.rightInfo{
+  display: flex;
+  flex-direction: column;
+  border: solid blue 1px;
+  justify-content: center;
+  width: 33vw;
+  margin-right: 10%;
+}
+.underJumbo{
+  border-bottom: solid black 1px;
+}
+#wordContainer{
+  display: flex;
+  align-items: center;
+  border: dotted magenta 1px;
+  /*margin:0 10%;*/
+}
+
+@media (max-width:768px) {
+
+}
