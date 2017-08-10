@@ -68,6 +68,12 @@
   justify-content: center;
   height: 34vh;
 }
+.name{
+  text-align: center;
+}
+.title{
+  text-align: center;
+}
 #right{
   height:34vh;
 }
@@ -142,4 +148,15 @@
 }
 .testimonialTab{
   border-bottom: solid lightgrey;
+}
+#contentHolder{
+  margin-top: 5%;
+}
+.languages>h6{
+  font-size: 16px;
+  font-weight: bolder;
+}
+.designations>h6{
+  font-size: 16px;
+  font-weight: bolder;
 }
