@@ -50,44 +50,40 @@
   color:white;
   text-decoration: underline;
 }
+.jumbotron{
+  padding:0;
+}
 #realtor{
   max-width: 100%;
   max-height: 100%;
 }
-#imageContainer{
+
+#realtorImage{
   height: 34vh;
-  margin-left:6.5%;
+  border: dotted green
+
 }
-.jumbotron{
-  height:34vh;
-  padding:0;
-}
-#jumboContainer{
-  display: flex;
-  justify-content: space-between;
-}
-.realtorInfo{
-  display: flex;
-  align-items: center;
-  border: solid black 1px;
-  /*margin:auto;*/
-}
-#ContactMeBtn{
-  margin-bottom: 10px;
-  width: 27vw;
-}
-#jumboContact{
-  list-style-type: none;
-  width: 27vw;
-  display: flex;
-  justify-content: space-between;
-}
-.middleInfo{
+#middle{
   display: flex;
   flex-direction: column;
-  border: dotted black 1x;
   justify-content: center;
+  border: dotted;
+  height: 34vh;
 }
+#right{
+  border: dotted blue;
+  height:34vh;
+}
+.ContactMeBtn{
+  margin:0 auto;
+}
+#jumboContact{
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
 .facebook{
   list-style-image: url('./Assets/SVGs/facebook.svg');
 }
@@ -102,25 +98,4 @@
 }
 .insta{
   list-style-image: url('./Assets/SVGs/instagram.svg');
-}
-.rightInfo{
-  display: flex;
-  flex-direction: column;
-  border: solid blue 1px;
-  justify-content: center;
-  width: 33vw;
-  margin-right: 10%;
-}
-.underJumbo{
-  border-bottom: solid black 1px;
-}
-#wordContainer{
-  display: flex;
-  align-items: center;
-  border: dotted magenta 1px;
-  /*margin:0 10%;*/
-}
-
-@media (max-width:768px) {
-
-}
+}*/*/

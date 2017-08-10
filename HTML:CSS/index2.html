@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -12,7 +11,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="styles2.css">
   </head>
 
   <body>
@@ -47,7 +46,6 @@
   </div>
 </nav>
 
-<!--SECONDARY NAV WITH SEARCHBAR  -->
 <nav class="navbar navbar-default">
 
 
@@ -69,13 +67,38 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-<div class='jumbotron'>
-  <div id='jumboContainer' class="contianer">
-    <div id='imageContainer' class="realtor">
-      <img id='realtor' class='img-fluid' src="./Assets/Realtor Image/saramortensun.jpg" alt="">
+<div class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div id='realtorImage' class="col-lg-4">
+        <img id='realtor' class='img-responsive' src="./Assets/Realtor Image/saramortensun.jpg">
+      </div>
+      <div id='middle' class="col-lg-4">
+        <h2>Jane Smith</h2>
+        <h6>REALTOR®</h6>
+        <button id='ContactMeBtn'>Contact Me</button><br/>
+        <ul id='jumboContact' class='col-lg-4 col-lg-offset-1 '>
+          <li class='facebook'></li>
+          <li class='linkedin'></li>
+          <li class='twitter'></li>
+          <li class='youtube'></li>
+          <li class='insta'></li>
+        </ul>
+      </div>
+      <div id='right' class="col-lg-4">
+        TAKE UP 4
+      </div>
     </div>
-    <div class="realtorInfo">
-      <div class="middleInfo">
+  </div>
+</div>
+<!-- <div class='continer-fluid'>
+  <div class="row">
+    <div class="jumbotron">
+      <div id='realtorImage' class="col-lg-4">
+        <img id='realtor' class='img-fluid' src="./Assets/Realtor Image/saramortensun.jpg">
+      </div>
+      <div id='middleInfo' class="col-lg-4">
+        <div class='middle'>
         <h2>Jane Smith</h2>
         <h6>REALTOR®</h6>
         <button id='ContactMeBtn'>Contact Me</button>
@@ -87,40 +110,10 @@
           <li class='insta'></li>
         </ul>
       </div>
-    </div>
-    <div class='rightInfo'>
-      <h4>
-        <img class='rightJumbo' src='./Assets/SVGs/contact.svg'/>5308302150
-      </h4>
-      <h4><img class='rightJumbo' src='./Assets/SVGs/website.svg'/>Visit my Website</h4>
-      <h4><img class='rightJumbo' src='./Assets/SVGs/office.svg'/>Denver Office</h4>
-      <h4><img class='rightJumbo' src='./Assets/SVGs/enewsletter.svg'/>eNewsletter Sign Up</h4>
-    </div>
-  </div>
-</div>
-<!-- <div class="underJumbo">
-  <div class='wordContainer'>
-    <div class="">
-      <h4>About Me</h4>
-    </div>
-    <div class="wrd">
-      <h4>My Listings</h4>
-    </div>
-    <div class="wrd">
-      <h4>MySolds</h4>
-    </div>
-    <div class="wrd">
-      <h4>About Me</h4>
+      </div>
     </div>
   </div>
 </div> -->
-<div id='wordContainer' class="row">
-    <div class="col-md-3">aboutMe</div>
-    <div class="col-md-3">aboutMe</div>
-    <div class="col-md-3">aboutMe</div>
-    <div class="col-md-3">aboutMe</div>
-</div>
 
-
-  </body>
+</body>
 </html>
