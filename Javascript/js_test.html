@@ -163,18 +163,15 @@ selectSally = function(){
 
 }
 
-findValue = function(){
-	let codetypes = jq("[name*='CodeTypes']")
-	jq(codetypes).change(function(){
-		let value = codetypes.val()
-		appendVal()
-	})
-}
 appendVal = function(){
 	let shownValue = jq("[name*='CodeTypes']").val()
 		jq('.appendValue').empty()
 		jq('.appendValue').prepend(shownValue)
 }
+
+jq("[name*='CodeTypes']").change(function(){
+	appendVal()
+})
 
 dimensions = function(){
 	let height = jq('#setDims').outerHeight()
@@ -203,9 +200,9 @@ ajaxCall = function(){
 jq(document).ready(function(){
 	changeColor()
 	selectSally()
-	findValue()
 	dimensions()
 	ajaxCall()
+	appendVal()
 })
 
 </script>
